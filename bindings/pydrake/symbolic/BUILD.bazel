@@ -57,6 +57,7 @@ drake_py_library(
     srcs = [
         "_symbolic_extra.py",
         "_symbolic_sympy.py",
+        "_symbolic_pickle.py",
     ],
     visibility = [
         "//bindings/pydrake/common:__pkg__",
